@@ -51,6 +51,7 @@ public class TestWordCounter {
     // do this for at least two words in the iterator and two not in the iterator
     
     // DONE, BUT CHECK LATER
+    // Do you need to have xzc as a test case?
     
     Iterator someIterator = Arrays.asList("asdf", "oiu", "qwer").iterator()
     count.countWords(someIterator);
