@@ -6,6 +6,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+
 public class TestWordCounter {
 
   // TODO complete this test class
