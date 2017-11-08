@@ -56,8 +56,10 @@ public class TestWordCounter {
     Iterator someIterator = Arrays.asList("asdf", "oiu", "qwer").iterator();
     count.countWords(someIterator);
     assertNotEquals(2, count.getCount("asdf"));
-    assertNotEquals(2, count.getCount("oiu"));
-    assertNotEquals(2, count.getCount("qwer"));
+    assertNotEquals(1, count.getCount("oiu"));
+    assertNotEquals(1, count.getCount("qwer"));
+    assertEquals(2, count.getCount("qwer"));
+    assertEquals(2, count.getCount("oiu"));
 
   }
 }
