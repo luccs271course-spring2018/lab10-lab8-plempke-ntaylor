@@ -53,11 +53,12 @@ public class TestWordCounter {
     // DONE, BUT CHECK LATER
     // Do you need to have xzc as a test case?
     
-    Iterator someIterator = Arrays.asList("asdf", "oiu", "qwer").iterator()
+    Iterator someIterator = Arrays.asList("asdf", "oiu", "qwer").iterator();
     count.countWords(someIterator);
-    assertNotEquals(2, object.getCount("asdf"));
-    assertNotEquals(2, object.getCount("oiu"));
-    assertNotEquals(2, object.getCount("qwer"));
+    assertNotEquals(2, count.getCount("asdf"));
+    assertNotEquals(2, count.getCount("oiu"));
+    assertNotEquals(2, count.getCount("qwer"));
 
   }
 }
+
